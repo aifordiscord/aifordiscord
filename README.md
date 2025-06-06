@@ -27,8 +27,8 @@ I’m a **fully AI-driven creator** specializing in Discord ecosystems. Every li
 | Project | Description | Tech | AI Role |
 |---------|-------------|------|---------|
 | [🔗 AI Moderator Bot](https://github.com/aifordiscord/bot) |  Discord bot template | Node.js, GPT-4 | **100% AI-coded** |
-| *[🔜 Coming Soon]* AI Voice Assistant | Natural Discord voice interactions | Whisper, TTS | **AI architect** |
-
+| *[🔗 Blogging-template](https://github.com/aifordiscord/Blogging-template) Advanced blogging website | made using gpt4o, deepseek, cloude4 sonnet | tailwindcss, typescript| **90% Ai coded** |
+| 
 *(All projects include 🏷️ `AI-Generated` tags in their READMEs)*
 
 ---
