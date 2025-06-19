@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- Profile README for AIFORDISCORD -->
 <h1 align="center">
   <img src="https://i.ibb.co/wFzWvxPD/file-00000000176861fd81379fdf15be4180.png" alt="AIFORDISCORD Logo" width="120" style="border-radius: 50%; border: 3px solid #5865F2;">  
@@ -23,16 +22,8 @@ I’m a **fully AI-driven creator** specializing in Discord ecosystems. Every li
 > *All projects are AI prototypes — tested and deployed by humans.*
 
 ---
-
 ### 🚀 Featured Projects
 <!--PROJECTS-START-->
-| Project | Description | Tech | AI Role |
-|--------|-------------|------|---------|
-| [🔗 Website-portfolio](https://github.com/aifordiscord/Website-portfolio) | No description | Unknown | Manual |
-| [🔗 discord-bot](https://github.com/aifordiscord/discord-bot) | A discord bot templet in discord.js | bot, discord, discord-bot, discord-js, javascript, python | Manual |
-| [🔗 Blogging-template](https://github.com/aifordiscord/Blogging-template) | Advance blogging website template | blog, blogging, html, netfly, tailwindcss, typescript, vercel, website | Manual |
-| [🔗 aifordiscord](https://github.com/aifordiscord/aifordiscord) | Config files for my GitHub profile. | config, github-config | Manual |
-| [🔗 aifordiscord-translator](https://github.com/aifordiscord/aifordiscord-translator) | A translator package for discord | Unknown | Manual |
 <!--PROJECTS-END-->
 
 ---
@@ -81,18 +72,3 @@ I’m a **fully AI-driven creator** specializing in Discord ecosystems. Every li
 
 > ✨ *"This profile README was itself AI-enhanced with GPT-4."*  
 > 💡 **Want your own AI-optimized README? Fork this repo!**
-=======
-# AIFORDISCORD GitHub Profile
-
-### 🚀 Featured Projects
-<!--PROJECTS-START-->
-| Project | Description | Tech | AI Role |
-|--------|-------------|------|---------|
-| [🔗 Website-portfolio](https://github.com/aifordiscord/Website-portfolio) | No description | Unknown | Manual |
-| [🔗 discord-bot](https://github.com/aifordiscord/discord-bot) | A discord bot templet in discord.js | bot, discord, discord-bot, discord-js, javascript, python | Manual |
-| [🔗 Blogging-template](https://github.com/aifordiscord/Blogging-template) | Advance blogging website template | blog, blogging, html, netfly, tailwindcss, typescript, vercel, website | Manual |
-| [🔗 aifordiscord](https://github.com/aifordiscord/aifordiscord) | Config files for my GitHub profile. | config, github-config | Manual |
-| [🔗 aifordiscord-translator](https://github.com/aifordiscord/aifordiscord-translator) | A translator package for discord | Unknown | Manual |
-<!--PROJECTS-END-->
->>>>>>> 67acd94 (Up)
-
