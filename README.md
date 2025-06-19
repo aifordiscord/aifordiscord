@@ -25,12 +25,15 @@ I’m a **fully AI-driven creator** specializing in Discord ecosystems. Every li
 ---
 
 ### 🚀 Featured Projects
+<!--PROJECTS-START-->
 | Project | Description | Tech | AI Role |
-|---------|-------------|------|---------|
-| [🔗 Discord Bot](https://github.com/aifordiscord/discord-bot) | Advanced Discord bot template | Node.js, GPT-4 | **90% AI-coded** |
-| *[🔗 Blogging-template](https://github.com/aifordiscord/Blogging-template) Advanced blogging website | made using gpt4o, deepseek, cloude4 sonnet | tailwindcss, typescript| **90% Ai coded** |
-| 
-*(All projects include 🏷️ `AI-Generated` tags in their READMEs)*
+|--------|-------------|------|---------|
+| [🔗 Website-portfolio](https://github.com/aifordiscord/Website-portfolio) | No description | Unknown | Manual |
+| [🔗 discord-bot](https://github.com/aifordiscord/discord-bot) | A discord bot templet in discord.js | bot, discord, discord-bot, discord-js, javascript, python | Manual |
+| [🔗 Blogging-template](https://github.com/aifordiscord/Blogging-template) | Advance blogging website template | blog, blogging, html, netfly, tailwindcss, typescript, vercel, website | Manual |
+| [🔗 aifordiscord](https://github.com/aifordiscord/aifordiscord) | Config files for my GitHub profile. | config, github-config | Manual |
+| [🔗 aifordiscord-translator](https://github.com/aifordiscord/aifordiscord-translator) | A translator package for discord | Unknown | Manual |
+<!--PROJECTS-END-->
 
 ---
 
