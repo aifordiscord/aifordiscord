@@ -1,4 +1,31 @@
-- name: Commit and push changes
+name: Update Featured Projects
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # every Monday
+  workflow_dispatch:
+
+jobs:
+  update-projects:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: node update-projects.js
+
+      - name: Commit and push changes
         env:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
