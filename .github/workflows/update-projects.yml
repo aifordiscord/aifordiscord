@@ -2,7 +2,7 @@ name: Update Featured Projects
 
 on:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 0 * * 1'  # every Monday
   workflow_dispatch:
 
 jobs:
@@ -22,13 +22,16 @@ jobs:
 
       - name: Run update script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}  # use your personal token here
         run: node update-projects.js
 
       - name: Commit and push changes
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "aifordiscord"
+          git config user.email "your-email@example.com"
+          git remote set-url origin https://aifordiscord:${{ secrets.PERSONAL_TOKEN }}@github.com/aifordiscord/aifordiscord.git
           git add README.md
-          git commit -m "🔄 Auto-update Featured Projects" || echo "No changes to commit"
+          git commit -m "🔄 Auto-update Featured Projects" || echo "No changes"
           git push
