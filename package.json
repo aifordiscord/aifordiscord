@@ -1,0 +1,11 @@
+{
+  "name": "aifordiscord-profile",
+  "version": "1.0.0",
+  "main": "update-projects.js",
+  "scripts": {
+    "start": "node update-projects.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.0"
+  }
+}
