@@ -53,5 +53,4 @@ function updateReadme(content) {
   }
 })();
 
-console.log("\\n--- 📋 Updated Projects Table ---\\n");
-console.log(markdown);
+

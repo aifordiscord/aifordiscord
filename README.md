@@ -24,7 +24,13 @@ I’m a **fully AI-driven creator** specializing in Discord ecosystems. Every li
 ---
 ### 🚀 Featured Projects
 <!--PROJECTS-START-->
-
+| Project | Description | Tech | AI Role |
+|--------|-------------|------|---------|
+| [🔗 aifordiscord](https://github.com/aifordiscord/aifordiscord) | Config files for my GitHub profile. | config, github-config | Manual |
+| [🔗 Website-portfolio](https://github.com/aifordiscord/Website-portfolio) | No description | Unknown | Manual |
+| [🔗 discord-bot](https://github.com/aifordiscord/discord-bot) | A discord bot templet in discord.js | bot, discord, discord-bot, discord-js, javascript, python | Manual |
+| [🔗 Blogging-template](https://github.com/aifordiscord/Blogging-template) | Advance blogging website template | blog, blogging, html, netfly, tailwindcss, typescript, vercel, website | Manual |
+| [🔗 aifordiscord-translator](https://github.com/aifordiscord/aifordiscord-translator) | A translator package for discord | Unknown | Manual |
 <!--PROJECTS-END-->
 
 ---
