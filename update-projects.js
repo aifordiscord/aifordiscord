@@ -52,3 +52,6 @@ function updateReadme(content) {
     console.error("❌ Error updating README:", error);
   }
 })();
+
+console.log("\\n--- 📋 Updated Projects Table ---\\n");
+console.log(markdown);
