@@ -1,12 +1,10 @@
-name: Update Featured Projects
+name: Build Project Section Only
 
 on:
-  schedule:
-    - cron: '0 0 * * 1'  # every Monday
   workflow_dispatch:
 
 jobs:
-  update-projects:
+  generate-projects-section:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -22,16 +20,11 @@ jobs:
 
       - name: Run update script
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node update-projects.js
 
-      - name: Commit and push changes
-        env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        run: |
-          git config user.name "aifordiscord"
-          git config user.email "aifordiscoord@gmail.com"
-          git remote set-url origin https://x-access-token:${PERSONAL_TOKEN}@github.com/aifordiscord/aifordiscord.git
-          git add README.md
-          git commit -m "🔄 Auto-update Featured Projects" || echo "No changes"
-          git push origin HEAD:main
+      - name: Upload updated README
+        uses: actions/upload-artifact@v4
+        with:
+          name: updated-readme
+          path: README.md
