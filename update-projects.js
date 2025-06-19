@@ -24,7 +24,7 @@ function generateMarkdownTable(repos) {
     const techStack = repo.topics?.join(", ") || "Unknown";
     const aiRole = repo.description?.toLowerCase().includes("ai")
       ? "**AI-coded**"
-      : "Manual";
+      : "Ai-coded";
     return `| [🔗 ${repo.name}](${repo.html_url}) | ${repo.description || "No description"} | ${techStack} | ${aiRole} |`;
   });
 
